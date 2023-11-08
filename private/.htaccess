@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Accès restreint"
+AuthUserFile C:\xampp\htdocs\pointage_exemple\private\.htpasswd
+Require valid-user

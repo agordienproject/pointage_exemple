@@ -1,0 +1,45 @@
+/* Style pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Style pour l'en-tête du tableau */
+table th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Style pour les cellules du tableau */
+table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Style pour les lignes paires du tableau */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style pour les liens dans le tableau (le cas échéant) */
+table a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Style pour les liens au survol */
+table a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    font-size: 2em; /* Ajustez la taille de la police selon vos préférences */
+    color: #007bff; /* Couleur du texte */
+    text-align: center; /* Centrer le texte */
+    text-transform: uppercase; /* Mettre en majuscules */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre du texte */
+    margin: 20px 0; /* Espacement par rapport aux éléments environnants */
+}

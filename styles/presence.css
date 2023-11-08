@@ -1,0 +1,55 @@
+.nav {
+    display: flex;
+    justify-content: space-between; /* Aligner les éléments horizontalement */
+    align-items: center; /* Centrer verticalement les éléments */
+    padding: 10px;
+}
+
+.title {
+    font-size: 2em;
+    font-family: Verdana, Arial, sans-serif;
+    color: #007bff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-left: 27%;
+}
+
+.ref-accueil {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Animation au survol */
+    margin-right: 5%;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.ref-accueil:hover {
+    transform: scale(1.1);
+}
+
+.historique {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: left;
+    display: block; /* Pour que margin-top fonctionne correctement */
+    margin-top: 3%;
+    margin-right: 87%;
+    transition: transform 0.3s ease; /* Animation au survol */
+}
+
+.historique:hover {
+    transform: scale(1.1);
+}
+
+body.default {
+    background-color: #f0f0f0; /* Couleur de fond de la page */
+    margin: 0; /* Supprime les marges par défaut du corps */
+    padding: 0; /* Supprime les marges intérieures par défaut du corps */
+    text-align: center; /* Aligner le texte au centre de la page */
+}

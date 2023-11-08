@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feuille emmargement numerique</title>
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <script>
+        // Récupérer les erreurs passées dans l'URL et afficher les messages
+        const urlParams = new URLSearchParams(window.location.search);
+        const error = urlParams.get('error');
+        
+        if (error === 'incorrect') {
+            alert("Mot de passe incorrect.");
+        } else if (error === 'notfound') {
+            alert("Nom d'utilisateur introuvable.");
+        }
+    </script>
+</head>
+
+<body>
+    <h1 class="title">Feuille d'émmargement numérique</h1>
+    <form action="login.php" method="post">
+        <label for="username">Nom d'utilisateur:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Mot de passe:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Se connecter">
+    </form>
+</body>
+
+</html>

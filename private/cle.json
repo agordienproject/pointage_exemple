@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "feuille-presence-401909",
+  "private_key_id": "fa5528fc7e132c0416b325670ee446ba411aff9e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8VNx+JOlLJ4Zx\nRWCHNvbGjPWfrJykUo8tcE0oQLVlWUiS7tW6523ae2iCeX67rANucrOPjvkaNy4O\nFn9LePsW4S3FG9MmnZ5Ze0aLC5VBx9me9wabeFYuciD2dlm1Fs5mWxT6AftUvv9U\n/9fmA0XaToXFXzOsCjdNF9GEsJpexYMslvSRVEU7rhybKBzojdJBs34Vt3/tGvL7\nFWDZiGQdEssWdTQU13ztk0PjCLEYKMdimWlu2EQskOC3bKKW1TgV/43E6W3pLgjp\nneOqpcem3sTjvSnsTUAl21QV++CCXjzjFLrzCd+AFz1tzraFVUYEw/jz211PYBSC\nxp6Q/po3AgMBAAECggEAJ5ZvAtUfdPzJ9eVvdPzIwtO+jeHqy1/PWO3SSjPP7Y3n\nA3vQ0Yj0PojSXxrK2Qg/cGgL9pFHK4uN0shH2cWEgjqzNEu1Btj7ADQ5j+DPbxRj\nWlbyvJt/AiRbaXNXSAmTOVDMCAGCoz3Czks5RtBJTqpS1Do+0lsTZNEs6Yd165Wc\nlEXip7rP9qVpIGcayyh798NXWs1i5gTmtC0J847MBa85cs49JJffqX6nFriAJfnp\n14NHfxKUQEoM4Hp/Qw01jGnHd+kPVZiCVesJ+gimnB/UOFOIXRnQRPELwE2LCYqL\nX1+iLMbDEg2zu5Y4wJROhJIAM/ZwohkUsc55SO7KgQKBgQDo75pNNEGIyVHAq9kN\nmeZlotd5xIUfHSDVVFIy7ZvDBwtUbI+YCgOBLX6CscZZFlnvOY27i2c4Hazl93kp\nOcsafInHxeVYADpH/Z9LGWhcMT+Mgg5CPnAn6z+c3vWslgMBNVuiuNmg0Yz8yWQ5\nEu/maEBABc7DBd9ZpaV0l2+vtQKBgQDO+qMHce7p6TFALNoAZhUBk98BrPu2YTnO\nGJHbjOn2Ce1QkV+D5/KHeCiqMsDgznsARfCkCGuiJ+XQ7ZpHwU4LSJlhd7i6D3WJ\n8f1ommiFPQKFiRV4d2l7j1KPWQtYENL3G9PTUFJwxDsOOJkXChaZINDwa2YDYgAo\nYDFPmRLduwKBgQCfyu6RE835JhH9GGZX3EGfa2xhzhx8UaEadzPEWBfIXGa7TZXb\n+NKapTjqM0YcCyc64sKF64Wtiz32rCPj0g+wZcqmzu0bx1wz0pqaDB35UJeFrhpV\n+zs5RzpmRNVHxcjd5VqtcB1rIxWSvB0SwhjseIvK37ENPFQRzX6JUvF9GQKBgQDB\nADe7PoNQvLC/LdOOYaIe2XsufdYtp5WWV5TSzCBx26nd4eDWCBhAOEx7AF6YghFy\nHMWav3tWNqv22UhutpMGtIjJuTCY1sd8fRkWTD1AWLacPEq4DWlf3TJYFukcEnwW\nDm3Ecvaczm5fAWnHcRHHcjFCrnLunpiVDbWNiqhr9wKBgHbxZIPyHmp32Enwh4ge\nJ4wyzp0FOt5Z2H6HFxru/OGPU4vZZC7TfdM5obTZdi83eg+IH/827UAH1x0CIfaC\ncyqflfruzTtPcUaRZ9zcWQS9153GjlmQWzGUVd5mMLI8pMtdJg4QiTGKWwkuDTew\npIkOKVRoLp12lq2Q/bO4x7eb\n-----END PRIVATE KEY-----\n",
+  "client_email": "cesi-test@feuille-presence-401909.iam.gserviceaccount.com",
+  "client_id": "110120433590040278996",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cesi-test%40feuille-presence-401909.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

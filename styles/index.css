@@ -1,0 +1,70 @@
+/* Style de base pour les petits écrans */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+/* Style spécifique pour les écrans plus larges (par exemple, tablettes et ordinateurs) */
+@media (min-width: 768px) {
+    form {
+        max-width: 400px;
+    }
+}
+
+/* Style spécifique pour les écrans encore plus larges (par exemple, ordinateurs de bureau) */
+@media (min-width: 1024px) {
+    form {
+        max-width: 600px;
+    }
+}
+
+/* Style pour les étiquettes et les champs de formulaire */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 3%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style pour le bouton de soumission */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.title {
+    font-size: 2em; /* Ajustez la taille de la police selon vos préférences */
+    color: #007bff; /* Couleur du texte */
+    text-align: center; /* Centrer le texte */
+    text-transform: uppercase; /* Mettre en majuscules */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre du texte */
+    margin: 20px 0; /* Espacement par rapport aux éléments environnants */
+}
