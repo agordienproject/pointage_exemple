@@ -1,7 +1,7 @@
 <?php
 // Inclure le fichier de connexion
 include("connect.php");
-include('rqt/data-admin.php'); // Ajoutez l'extension du fichier
+include('data/data-admin.php'); // Ajoutez l'extension du fichier
 
 session_start(); // Appeler session_start() au tout début du script
 
