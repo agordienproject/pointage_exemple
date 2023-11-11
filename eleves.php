@@ -20,7 +20,7 @@ include ("session.php");
     <script type="text/javascript">
         $(document).ready(function () {
 
-            var url = "rqt/get-data-eleves.php";
+            var url = "rqt/data-eleves.php";
             // prepare the data
             var source =
             {

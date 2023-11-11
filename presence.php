@@ -30,7 +30,7 @@ $dateEnFrancais = \Carbon\Carbon::now()->locale('fr_FR')->isoFormat('dddd DD MMM
     <script type="text/javascript">
         $(document).ready(function () {
 
-            var url = "rqt/get-data-presence.php?promo=<?php echo $promo;?>";
+            var url = "rqt/data-presence.php?promo=<?php echo $promo;?>";
             // prepare the data
             var source =
             {

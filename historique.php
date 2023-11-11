@@ -20,7 +20,7 @@ include ("session.php");
 
     
     $(document).ready(function () {
-        var url = "rqt/get-data-historique.php";
+        var url = "rqt/data-historique.php";
 
         var source =
         {
