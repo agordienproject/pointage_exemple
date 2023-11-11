@@ -3,13 +3,13 @@ Ce projet fait référence au projet de numérisation de la feuille d'émargemen
 
 ## Fonctionnement
 
-## Environnements utilisés
+### Environnements utilisés
 Pour utiliser un exemple de ce projet, il faut utiliser les environnements suivants : 
   Apache
   Mysql
   PHP
 Vous pouvez avoir le tout en 1 en téléchargeant par exemple XAMPP via la lien suivant :
-### Lien vers le téléchargement de XAMPP
+#### Lien vers le téléchargement de XAMPP
 > https://www.apachefriends.org/fr/download.html
 
 ## Création de la BDD
