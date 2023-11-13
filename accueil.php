@@ -12,7 +12,7 @@ include("session.php");
     <h1 class="title">Accueil</h1>
     <a class="logout-button" href="logout.php">Se déconnecter</a>
 
-    <form class="form-container" id="promoForm" action="" method="post">
+    <form class="form-container" id="promoForm" action="presence.php" method="post">
         <label for="promo">Sélectionnez la promotion :</label>
         <select id="promo" name="promo">
             <option value="FISA INFO">FISA INFO</option>

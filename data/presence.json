@@ -1,0 +1,245 @@
+[
+  {
+    "nom": "GORDIEN",
+    "prenom": "Alexis",
+    "promo": "FISA INFO",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "PRONIRT",
+    "prenom": "Arthur",
+    "promo": "FISA INFO",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "SAFARI",
+    "prenom": "Elon",
+    "promo": "FISE INFO",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "DURAND",
+    "prenom": "Marie",
+    "promo": "FISA S3E",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "LEFEBVRE",
+    "prenom": "Lucas",
+    "promo": "CPIA1",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "DUBOIS",
+    "prenom": "Sophie",
+    "promo": "CPIA2 INFO",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "MARTINEZ",
+    "prenom": "Thomas",
+    "promo": "CPIA2 S3E",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "LECOMTE",
+    "prenom": "Julie",
+    "promo": "FISA INFO",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "THOMAS",
+    "prenom": "Pierre",
+    "promo": "FISA S3E",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "MARTIN",
+    "prenom": "L\u00e9a",
+    "promo": "FISE INFO",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "DUPONT",
+    "prenom": "Nicolas",
+    "promo": "CPIA1",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "PETIT",
+    "prenom": "Camille",
+    "promo": "CPIA2 INFO",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "LEROUX",
+    "prenom": "\u00c9lise",
+    "promo": "CPIA2 S3E",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "GIRARD",
+    "prenom": "Antoine",
+    "promo": "FISA INFO",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "MULLER",
+    "prenom": "Chlo\u00e9",
+    "promo": "FISA S3E",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "BEAUVAIS",
+    "prenom": "Lucie",
+    "promo": "FISE INFO",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "FOURNIER",
+    "prenom": "Louis",
+    "promo": "CPIA1",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "MOREAU",
+    "prenom": "Julien",
+    "promo": "FISA INFO",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "LEFORT",
+    "prenom": "Alice",
+    "promo": "FISA S3E",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "GARNIER",
+    "prenom": "\u00c9milie",
+    "promo": "FISE INFO",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "GAUTHIER",
+    "prenom": "Maxime",
+    "promo": "CPIA1",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "ROUX",
+    "prenom": "L\u00e9na",
+    "promo": "CPIA2 INFO",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "FONTAINE",
+    "prenom": "Luc",
+    "promo": "CPIA2 S3E",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "BLANC",
+    "prenom": "Manon",
+    "promo": "FISA INFO",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "BERTRAND",
+    "prenom": "Hugo",
+    "promo": "FISA S3E",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "LAMBERT",
+    "prenom": "Sophie",
+    "promo": "FISE INFO",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  },
+  {
+    "nom": "GU\u00c9RIN",
+    "prenom": "Paul",
+    "promo": "CPIA1",
+    "presence_matin": "Absent",
+    "heure_matin": null,
+    "presence_aprem": "Absent",
+    "heure_aprem": null
+  }
+]

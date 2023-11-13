@@ -1,6 +1,5 @@
 <?php
 include ("session.php");
-
 require 'vendor/autoload.php'; // Incluez l'autoloader de Composer
 
 
@@ -30,7 +29,7 @@ $dateEnFrancais = \Carbon\Carbon::now()->locale('fr_FR')->isoFormat('dddd DD MMM
     <script type="text/javascript">
         $(document).ready(function () {
 
-            var url = "rqt/data-presence.php?promo=<?php echo $promo;?>";
+            var url = "data/presence.json?promo=<?php echo $promo;?>";
             // prepare the data
             var source =
             {
