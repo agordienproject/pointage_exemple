@@ -43,17 +43,21 @@ Cette commande va lancer un serveur PHP, cliquez sur le lien généré pour déc
 
 ## Connexion
 
-Puur accéder aux présences, il vous faut d'abord vous connecter, car il y a un minimum de sécurité.
-Pour vous connecter, voici les identifiants qui sont stockés dans [data](data/data-admin.php) :
-
+Pour accéder aux présences, il vous faut d'abord vous connecter, car il y a un minimum de sécurité.
+Pour vous connecter, utilisez celui-ci :
 + Utilisateur : admin
 + mot de passe : admin
+
+Vous pouvez retrouver la liste des noms d'utilisateurs et les mots de passses (chiffrés) qui sont stockés dans [data](data/data-admin.php)
 
 Il est évident que ces données dans le projet réel sont stockées en Base et que le mot de passe est chiffré, vous ne pouvez pas y accéder aussi facilement.
 
 ## Présence du jour
 
-La fonctionnalité de présence du jour est désactivée dans cet exemple car elle est dynamique et fonctionne sur le jour même. Mais comme les données sont brutes et ne sont pas ajoutées
+La fonctionnalité de présence du jour n'est pas très intéressante dans cet exemple puisqu'elle utilise des données brutes qui ne peuvent pas être mises à jour facilement, mais vous pouvez tout de même y accéder.
+Pour ce faire sélectionnez la promotion que vous souhaitez observer, puis cliquez sur le bouton "Accéder aux présences du jour" :
+
+
 
 ## Liste des élèves
 
