@@ -12,9 +12,9 @@ Une fois le contrôle réalisé, il va inscrire le pointage de l'élève dans un
 
 Voici un schéma qui explique la situation : 
 
-![Cover](https://github.com/agordienproject/pointage_exemple/edit/main/img/schema_fonctionnement.png)
+![image](./img/schema_fonctionnement.png)
 
-
+Pour voir le programme du controlleur, vous pouvez y accéder en allant vers ce lien [controlleur](./private/controller.py)
 ### Environnements utilisés
 Pour réaliser ce projet, j'ai utilisé les environnements suivants :
 + Apache
@@ -26,6 +26,8 @@ Pour ceux qui sont intéressés, vous pouvez avoir le tout en 1 en téléchargea
 > https://www.apachefriends.org/fr/download.html
 
 # Utilisation
+
+## Lancement du serveur PHP
 
 ## Connexion
 
