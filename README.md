@@ -57,6 +57,11 @@ Il est évident que ces données dans le projet réel sont stockées en Base et 
 La fonctionnalité de présence du jour n'est pas très intéressante dans cet exemple puisqu'elle utilise des données brutes qui ne peuvent pas être mises à jour facilement, mais vous pouvez tout de même y accéder.
 Pour ce faire sélectionnez la promotion que vous souhaitez observer, puis cliquez sur le bouton "Accéder aux présences du jour" :
 
+![image](./img/ecran_accueil.png)
+
+Une fois le formulaire validé, vous basculerez vers une page php qui récapitule les présences des étudiants du jour sur la promotion choisie.
+
+![image](./img/ecran_presence.png)
 
 
 ## Liste des élèves
