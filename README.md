@@ -37,8 +37,15 @@ jQWidgets est un framework logiciel avec des widgets (éléments de contrôle gr
 
 C'est cette librairie qui m'a permis de visualiser facilement des données et de pouvoir les arranger comme bon me semble (uniquement en front).
 
-La bibliothèque est stockée [ici](./
+La bibliothèque est stockée [ici](./jQWidgets)
+
 ### Base de données
+
+Bien que l'utilisation de la base de données ne soit pas présente dans cet exemple, il me semble important de vous expliquer le contenu et les relations effectuées dans cette base de données.
+
+Voici le modèle de données : 
+
+![image](./img/modele_de_donnees.png)
 
 # Utilisation
 
@@ -98,7 +105,7 @@ Sélectionnez la plage de date du 27 septembre au 3 octobre et vous aurez des pr
 Comme il est possible d'avoir beaucoup de données dans tous les sens, je vous invite à utiliser la fonction proposée par jQWidgets qui permet de regrouper les données :
 
 1. Attrapez la colonne des promotions et glissez là dans la barre où il y a le texte "Déplacez des colonnes pour effectuer un regroupement"
-2. Attrapez la colonne des nom et faite la même chose
+2. Attrapez la colonne des noms et faites la même chose
 
 Une fois la manipulation faite, vous devriez avoir un tableau ressemblant à ceci :
 
