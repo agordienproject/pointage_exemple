@@ -33,6 +33,11 @@ Lien pour télécharger PHP :
 
 #### Utilisation de jQWidgets
 
+jQWidgets est un framework logiciel avec des widgets (éléments de contrôle graphiques), des thèmes, une validation des entrées, un plug-in glisser-déposer, des adaptateurs de données, une accessibilité WAI-ARIA intégrée, une internationalisation et une prise en charge MVVM. Il est construit sur les normes et technologies ouvertes HTML5, CSS, JavaScript et jQuery. Cette bibliothèque est utilisée pour développer des applications Web et mobiles réactives. Certains développeurs considèrent jQWidgets comme l'une des meilleures alternatives à l'interface utilisateur jQuery open source.
+
+C'est cette librairie qui m'a permis de visualiser facilement des données et de pouvoir les arranger comme bon me semble (uniquement en front).
+
+La bibliothèque est stockée [ici](./
 ### Base de données
 
 # Utilisation
@@ -87,6 +92,19 @@ Bien sûr, vous pouvez modifier la date en jouant avec la plage de date ici :
 
 D'ailleurs, il serait intéressant pour vous de changer la plage de date pour vérifier que les présences des élèves remontent correctement.
 Sélectionnez la plage de date du 27 septembre au 3 octobre et vous aurez des présences et des absences :
+
+![image](./img/ecran_historique.png)
+
+Comme il est possible d'avoir beaucoup de données dans tous les sens, je vous invite à utiliser la fonction proposée par jQWidgets qui permet de regrouper les données :
+
+1. Attrapez la colonne des promotions et glissez là dans la barre où il y a le texte "Déplacez des colonnes pour effectuer un regroupement"
+2. Attrapez la colonne des nom et faite la même chose
+
+Une fois la manipulation faite, vous devriez avoir un tableau ressemblant à ceci :
+
+![image](./img/ecran_regroupement_historique.png)
+
+C'est plus simple pour exploiter les données n'est-ce pas ?
 
 
 # Idées d'amélioration
