@@ -31,6 +31,10 @@ Lien pour télécharger PHP :
 
 > https://www.php.net/downloads.php
 
+#### Utilisation de jQWidgets
+
+### Base de données
+
 # Utilisation
 
 ## Lancement du serveur PHP
@@ -59,13 +63,30 @@ Pour ce faire sélectionnez la promotion que vous souhaitez observer, puis cliqu
 
 ![image](./img/ecran_accueil.png)
 
+
 Une fois le formulaire validé, vous basculerez vers une page php qui récapitule les présences des étudiants du jour sur la promotion choisie.
+
 
 ![image](./img/ecran_presence.png)
 
 
 ## Liste des élèves
 
+Cliquez sur le bouton "Liste des élèves" et vous accèderez à un tableau qui référence tous les élèves. Le datagrid réalisé avec jQWidgets vous permet de filtrer comme bon vous semble.
+
 ## Historique des présences
+
+L'historique des présences me semble être le programme le plus intéressant car il permet de retracer toutes les présences depuis la création du projet. Pour cet exemple, j'ai initialisé les jours de présence depuis le 1er janvier 2023 et les données sont alimentée en fin septembre 2023.
+Lorsque vous allez cliquez sur l'historique des présence, le programme est filtré afin qu'il affiche par défaut la liste des présences de tout le monde sur la semaine courante : 
++ Si nous sommes mardi, alors il affiche par défaut les présences de lundi et mardi
++ Si nous sommes vendredi, il affichera par défaut la semaine
+
+Bien sûr, vous pouvez modifier la date en jouant avec la plage de date ici : 
+
+![image](./img/ecran_filtre_date.png)
+
+D'ailleurs, il serait intéressant pour vous de changer la plage de date pour vérifier que les présences des élèves remontent correctement.
+Sélectionnez la plage de date du 27 septembre au 3 octobre et vous aurez des présences et des absences :
+
 
 # Idées d'amélioration
