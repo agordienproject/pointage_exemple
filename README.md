@@ -7,14 +7,14 @@ Ce projet fait référence au projet de numérisation de la feuille d'émargemen
 Premièrement, il faut comprendre que ce système est basé sur un pointage avec un lecteur de QR code.
 Chaque étudiant possède un QR code unique qu'il viendra pointer 2 fois par jour (une présence le matin, une l'aprem) auprès du QR code.
 
-Le controlleur qui contient le QRCode controle aussi les présences (faux QRcode, multiples présences etc...)
+Le contrôleur qui contient le QRCode controle aussi les présences (faux QRcode, multiples présences etc...)
 Une fois le contrôle réalisé, il va inscrire le pointage de l'élève dans une BDD dont les données seront accessibles depuis le programme que vous pouvez utiliser.
 
 Voici un schéma qui explique la situation : 
 
 ![image](./img/schema_fonctionnement.png)
 
-Pour voir le programme du controlleur, vous pouvez y accéder en allant vers ce lien [controlleur](./private/controller.py)
+Pour voir le programme du contrôleur, vous pouvez y accéder en allant vers ce lien [contrôleur](./private/controller.py)
 ### Environnements utilisés
 Pour réaliser ce projet, j'ai utilisé les environnements suivants :
 + Apache
@@ -115,3 +115,16 @@ C'est plus simple pour exploiter les données n'est-ce pas ?
 
 
 # Idées d'amélioration
+
+Bien que ce projet soit déjà efficace et permet de s'affranchir du côté "physique" du témoin de présence et de conserver les données et mieux les exploiter, il peut arriver que le lecteur de QRCode rencontre des problèmes, ou bien qu'il y ait un temps d'attente pour pouvoir scanner son QRCode. Il pourrait être intéressant de placer sur plusieurs endroits les mêmes contrôleurs afin de fluidifier le trafic.
+
+## Porter ce projet sur internet
+
+Il pourrait être intéressant d'aller au-delà du server privé de l'école d'ingénieurs et de porter le projet sur internet afin de créer par exemple une application afin que les étudiants avec leurs téléphones puissent signaler leurs présences tout en ayant accès à leur récapitulatifs de présence aussi.
+
+Cependant, porter ce projet demande plus de réflexions et d'autorisation :
+
++ Il faut que les politiques de l'école soit d'accord avec l'exportation de données ailleurs que chez elle
++ Il faut prendre en compte que si les étudiants peuvent "pointer" sur leur téléphone à distance, ils peuvent pointer sans être réellement présents. Une vérification de présence par un supérieur serait recommandée.
+
+Si ce projet peut être porté plus loin, ce serait une superbe nouvelle tâche dont je serai ravi de la partager sur mon Github. 
