@@ -120,13 +120,13 @@ $dateEnFrancais = \Carbon\Carbon::now()->locale('fr_FR')->isoFormat('dddd DD MMM
                 columnsmenu: false,
                 localization: getLocalization(),
                 columns: [
-                    { text: 'Nom', dataField: 'nom', width: "18%", cellclassname: cellclassname},
-                    { text: 'Prénom', dataField: 'prenom', width: "17%", cellclassname: cellclassname },
+                    { text: 'FirstName', dataField: 'nom', width: "18%", cellclassname: cellclassname},
+                    { text: 'LastName', dataField: 'prenom', width: "17%", cellclassname: cellclassname },
                     { text: 'Promotion', dataField: 'promo', width: "20%", cellsalign: "center", align: "center", filterable: false, cellclassname: cellclassname},
-                    { text: 'Présence Matin', dataField: 'presence_matin', width: "13%" , cellsalign: "center", align: "center", filterable: false, filtertype: "checkedlist", cellclassname: cellclassname, cellclassname: cellclassname_matin},
-                    { text: 'Heure Matin', dataField: 'heure_matin', width: "10%", cellsalign: "center", align: "center", filterable: false, cellclassname: cellclassname, cellclassname: cellclassname_matin },
-                    { text: 'Présence Après-midi', dataField: 'presence_aprem', width: "12%" , cellsalign: "center", align: "center", filterable: false, filtertype: "checkedlist", cellclassname: cellclassname, cellclassname: cellclassname_aprem},
-                    { text: 'Heure Après-midi', dataField: 'heure_aprem', width: "10%", cellsalign: "center", align: "center", filterable: false, cellclassname: cellclassname, cellclassname: cellclassname_aprem}
+                    { text: 'Morning presence', dataField: 'presence_matin', width: "13%" , cellsalign: "center", align: "center", filterable: false, filtertype: "checkedlist", cellclassname: cellclassname, cellclassname: cellclassname_matin},
+                    { text: 'Morning hour', dataField: 'heure_matin', width: "10%", cellsalign: "center", align: "center", filterable: false, cellclassname: cellclassname, cellclassname: cellclassname_matin },
+                    { text: 'Afternoon presence', dataField: 'presence_aprem', width: "12%" , cellsalign: "center", align: "center", filterable: false, filtertype: "checkedlist", cellclassname: cellclassname, cellclassname: cellclassname_aprem},
+                    { text: 'Afternoon hour', dataField: 'heure_aprem', width: "10%", cellsalign: "center", align: "center", filterable: false, cellclassname: cellclassname, cellclassname: cellclassname_aprem}
                 ]
             });
         });

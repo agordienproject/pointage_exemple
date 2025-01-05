@@ -1,28 +1,28 @@
-<h1 class="title">Tableau de présence du <?php echo $dateEnFrancais; ?></h1>
+<h1 class="title">Attendance Table for <?php echo $dateInEnglish; ?></h1>
 
-    <table>
-        <thead>
+<table>
+    <thead>
+        <tr>
+            <th>Last Name</th>
+            <th>First Name</th>
+            <th>Class</th>
+            <th>Morning Attendance</th>
+            <th>Morning Time</th>
+            <th>Afternoon Attendance</th>
+            <th>Afternoon Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach ($attendances as $attendance) : ?>
             <tr>
-                <th>Nom</th>
-                <th>Prénom</th>
-                <th>Promotion</th>
-                <th>Présence Matin</th>
-                <th>Heure Matin</th>
-                <th>Présence Après-midi</th>
-                <th>Heure Après-midi</th>
+                <td><?php echo $attendance['LastName']; ?></td>
+                <td><?php echo $attendance['FirstName']; ?></td>
+                <td><?php echo $attendance['Class']; ?></td>
+                <td><?php echo $attendance['MorningAttendance']; ?></td>
+                <td><?php echo $attendance['MorningTime']; ?></td>
+                <td><?php echo $attendance['AfternoonAttendance']; ?></td>
+                <td><?php echo $attendance['AfternoonTime']; ?></td>
             </tr>
-        </thead>
-        <tbody>
-            <?php foreach ($presences as $presence) : ?>
-                <tr>
-                    <td><?php echo $presence['Nom']; ?></td>
-                    <td><?php echo $presence['Prénom']; ?></td>
-                    <td><?php echo $presence['Promotion']; ?></td>
-                    <td><?php echo $presence['Présence_matin']; ?></td>
-                    <td><?php echo $presence['Heure_matin']; ?></td>
-                    <td><?php echo $presence['Présence_aprem']; ?></td>
-                    <td><?php echo $presence['Heure_aprem']; ?></td>
-                </tr>
-            <?php endforeach; ?>
-        </tbody>
-    </table>
+        <?php endforeach; ?>
+    </tbody>
+</table>

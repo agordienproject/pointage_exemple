@@ -6,7 +6,7 @@ include ("session.php");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title id='Description'>Feuille de présence</title>
+    <title id='Description'>Attendance sheet</title>
     <link rel="stylesheet" href="styles/presence.css">
     <link rel="stylesheet" href="jQWidgets/jqwidgets/styles/jqx.base.css" type="text/css" />
     <link rel="stylesheet" href="jQWidgets/jqwidgets/styles/jqx.energyblue.css" type="text/css"/>
@@ -144,14 +144,14 @@ include ("session.php");
                 addDefaultfilter();
             },
             columns: [
-                { text: 'Jour', dataField: 'jour', cellsformat: 'yyyy-MM-dd', width: "10%", filtertype: "range", cellsalign: "center", align: "center", cellclassname: cellclassname},
-                { text: 'Nom', dataField: 'nom', width: "15%" , cellclassname: cellclassname},
-                { text: 'Prénom', dataField: 'prenom', width: "15%" , cellclassname: cellclassname},
+                { text: 'Day', dataField: 'jour', cellsformat: 'yyyy-MM-dd', width: "10%", filtertype: "range", cellsalign: "center", align: "center", cellclassname: cellclassname},
+                { text: 'FirstName', dataField: 'nom', width: "15%" , cellclassname: cellclassname},
+                { text: 'LastName', dataField: 'prenom', width: "15%" , cellclassname: cellclassname},
                 { text: 'Promotion', dataField: 'promo', width: "15%", cellsalign: "center", align: "center", filtertype: "checkedlist", cellclassname: cellclassname},
-                { text: 'Présence Matin', dataField: 'presence_matin', width: "13%", cellsalign: "center", align: "center", filtertype: "checkedlist", cellclassname: cellclassname, cellclassname: cellclassname_matin},
-                { text: 'Heure Matin', dataField: 'heure_matin', width: "10%", cellsalign: "center", align: "center", filterable: false, cellclassname: cellclassname, cellclassname: cellclassname_matin},
-                { text: 'Présence Après-midi', dataField: 'presence_aprem', width: "12%", cellsalign: "center", align: "center", filtertype: "checkedlist", cellclassname: cellclassname, cellclassname: cellclassname_aprem},
-                { text: 'Heure Après-midi', dataField: 'heure_aprem', width: "10%", cellsalign: "center", align: "center", filterable: false, cellclassname: cellclassname, cellclassname: cellclassname_aprem }
+                { text: 'Morning presence', dataField: 'presence_matin', width: "13%", cellsalign: "center", align: "center", filtertype: "checkedlist", cellclassname: cellclassname, cellclassname: cellclassname_matin},
+                { text: 'Morning hour', dataField: 'heure_matin', width: "10%", cellsalign: "center", align: "center", filterable: false, cellclassname: cellclassname, cellclassname: cellclassname_matin},
+                { text: 'Afternoon presence', dataField: 'presence_aprem', width: "12%", cellsalign: "center", align: "center", filtertype: "checkedlist", cellclassname: cellclassname, cellclassname: cellclassname_aprem},
+                { text: 'Afternoon hour', dataField: 'heure_aprem', width: "10%", cellsalign: "center", align: "center", filterable: false, cellclassname: cellclassname, cellclassname: cellclassname_aprem }
             ]
         });
 
@@ -192,10 +192,10 @@ include ("session.php");
     <table width=100%>
         <tr>
             <td width=80%>
-                <h1 class="title">Historique des présences</h1>
+                <h1 class="title">History of presences</h1>
             </td>
             <td width=20% align=right>
-                <a class="ref-accueil" href="accueil.php">Accueil</a>    
+                <a class="ref-accueil" href="accueil.php">Home</a>    
             </td>
         </tr>
     </table>

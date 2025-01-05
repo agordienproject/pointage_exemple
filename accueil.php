@@ -6,29 +6,28 @@ include("session.php");
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles/accueil.css">
-    
 </head>
 <body>
-    <h1 class="title">Accueil</h1>
-    <a class="logout-button" href="logout.php">Se déconnecter</a>
+    <h1 class="title">Home</h1>
+    <a class="logout-button" href="logout.php">Logout</a>
 
     <form class="form-container" id="promoForm" action="presence.php" method="post">
-        <label for="promo">Sélectionnez la promotion :</label>
+        <label for="promo">Select the promotion:</label>
         <select id="promo" name="promo">
             <option value="FISA INFO">FISA INFO</option>
             <option value="FISE INFO">FISE INFO</option>
-            <option value="FISE INFO">FISA S3E</option>
-            <option value="FISE INFO">CPIA2 INFO</option>
-            <option value="FISE INFO">CPIA2 S3E</option>
-            <option value="FISE INFO">CPIA1</option>
-            <!-- Ajoutez d'autres options de promotion ici -->
+            <option value="FISA S3E">FISA S3E</option>
+            <option value="CPIA2 INFO">CPIA2 INFO</option>
+            <option value="CPIA2 S3E">CPIA2 S3E</option>
+            <option value="CPIA1">CPIA1</option>
+            <!-- Add other promotion options here -->
         </select>
-        <input type="submit" value="Accéder aux présences du jour">
+        <input type="submit" value="Access today's attendance">
     </form>
 
     <div class="button-container">
-        <a href="eleves.php" class="button">Liste des élèves</a>
-        <a href="historique.php" class="button">Historique des présences</a>
+        <a href="eleves.php" class="button">Student List</a>
+        <a href="historique.php" class="button">Attendance History</a>
     </div>
 </body>
 </html>

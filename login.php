@@ -1,9 +1,9 @@
 <?php
-// Inclure le fichier de connexion
+// Include the connection file
 include("connect.php");
-include('data/data-admin.php'); // Ajoutez l'extension du fichier
+include('data/data-admin.php'); // Add the file extension
 
-session_start(); // Appeler session_start() au tout début du script
+session_start(); // Call session_start() at the very beginning of the script
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["username"];
@@ -13,23 +13,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $hashed_password = $user["password"];
 
         if (password_verify($password, $hashed_password)) {
-            // Authentification réussie, redirigez vers la page d'accueil
+            // Authentication successful, redirect to the home page
             $_SESSION["username"] = $username;
             header("Location: accueil.php");
             exit();
         } else {
-            // Mot de passe incorrect, redirigez vers index.html avec un message d'erreur
+            // Incorrect password, redirect to index.html with an error message
             header("Location: index.html?error=incorrect");
             exit();
         }
     } else {
-        // Nom d'utilisateur introuvable, redirigez vers index.html avec un message d'erreur
+        // Username not found, redirect to index.html with an error message
         header("Location: index.html?error=notfound");
         exit();
     }
 }
 
-// Assurez-vous de fermer la connexion PDO à la fin
+// Make sure to close the PDO connection at the end
 $conn = null;
 
 include("session.php");

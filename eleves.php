@@ -7,7 +7,7 @@ include ("session.php");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title id='Description'>Liste des élèves</title>
+    <title id='Description'>Student List</title>
     <link rel="stylesheet" href="styles/presence.css">
     <link rel="stylesheet" href="jQWidgets/jqwidgets/styles/jqx.base.css" type="text/css" />
     <link rel="stylesheet" href="jQWidgets/jqwidgets/styles/jqx.energyblue.css" type="text/css"/>
@@ -51,9 +51,9 @@ include ("session.php");
                 columnsmenu: false,
 
                 columns: [
-                    { text: 'Identifiant', dataField: 'id_eleve', width: "25%", getdatainformation: true},
-                    { text: 'Nom', dataField: 'nom', width: "25%", getdatainformation: true},
-                    { text: 'Prénom', dataField: 'prenom', width: "25%" },
+                    { text: 'Identification', dataField: 'id_eleve', width: "25%", getdatainformation: true},
+                    { text: 'FirstName', dataField: 'nom', width: "25%", getdatainformation: true},
+                    { text: 'LastName', dataField: 'prenom', width: "25%" },
                     { text: 'Promotion', dataField: 'promo', width: "25%", cellsalign: "center", align: "center", filtertype: "checkedlist"},
                 ]
             });
@@ -63,12 +63,12 @@ include ("session.php");
 </head>
 <body class='default'>
     <div class="nav">
-        <h1 class="title">Liste des élèves</h1>
-        <a class="ref-accueil" href="accueil.php">Accueil</a>    
+        <h1 class="title">Student List</h1>
+        <a class="ref-accueil" href="accueil.php">Home</a>    
     </div>
     <div style="width: 75%; margin-left:auto; margin-right:auto; margin-top:3%;">
         <div id="grid"></div>
-        <a class="historique" href="historique.php">Accèder à l'historique</a>
+        <a class="historique" href="historique.php">Access to history</a>
     </div>
     
 </body>
